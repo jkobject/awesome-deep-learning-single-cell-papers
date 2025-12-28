@@ -26,43 +26,49 @@ Be free to refer to our comprehensive survey paper on Deep Learning in Single-ce
 
 ## For the foundation model for single-cell, more papers are recorded [[HERE]](https://github.com/OmicsML/awesome-foundation-model-single-cell-papers).
 
-- [Book](#book)
-- [Single Cell Techonoly](#single-cell-techonoly)
-- [Course](#course)
-- [Survey](#survey)
-- [Pretrained Model or LLM or Foundation Model](#pretrained-model-or-llm-or-foundation-model)
-- [GAN or Diffusion Model](#gan-or-diffusion-model)
-- [Multimodal Learning](#multimodal-learning)
-- [Data Simulation](#data-simulation)
-- [Interpretability](#interpretability)
-- [Spatialtemporal Transcriptomic](#spatialtemporal-transcriptomic)
-- [RNA Velocity](#rna-velocity)
-- [Molecular Representation Learning](#molecular-representation-learning)
-- [Single Cell Perturbation or Drug Response](#single-cell-perturbation-or-drug-response)
-- [Cellular Dynamics](#cellular-dynamics)
-- [Single Cell Application](#single-cell-application)
-- [Tools For Single Cell or Spatial Data](#tools-for-single-cell-or-spatial-data)
-- [Single Cell Atlas](#single-cell-atlas)
-- [Single Cell Visualization](#single-cell-visualization)
-- [Benchmarking](#benchmarking)
-- [Metric Design](#metric-design)
-- [Subcellular Analysis](#subcellular-analysis)
-- [Dimensionality Reduction and Visualization](#dimensionality-reduction-and-visualization)
-- [Representation Learning](#representation-learning)
-- [Batch Effect Correction](#batch-effect-correction)
-- [Tumor Microenvironment-TME](#tumor-microenvironment-tme)
-- [Cell-Cell Communication Events](#cell-cell-communication-events)
-- [Gene Regulatory Network](#gene-regulatory-network)
-- [Imputation](#imputation)
-- [Spatial Domain](#spatial-domain)
-- [Reference Embedding or Transfer Learning](#reference-embedding-or-transfer-learning)
-- [Cell Segmentation](#cell-segmentation)
-- [Cell Type Deconvolution](#cell-type-deconvolution)
-- [Cell Type Annotation](#cell-type-annotation)
-- [Cell Clustering](#cell-clustering)
-- [Disease Prediction](#disease-prediction)
-- [Multimodal Integration](#multimodal-integration)
-- [Multiomics Translation](#multiomics-translation)
+- [awesome-deep-learning-single-cell-papers](#awesome-deep-learning-single-cell-papers)
+  - [Citation](#citation)
+  - [For the foundation model for single-cell, more papers are recorded \[HERE\].](#for-the-foundation-model-for-single-cell-more-papers-are-recorded-here)
+  - [Book](#book)
+  - [Single Cell Techonoly](#single-cell-techonoly)
+    - [Single-Modality](#single-modality)
+    - [Multimodality](#multimodality)
+    - [Spatial Transcriptomic](#spatial-transcriptomic)
+  - [Course](#course)
+  - [Survey](#survey)
+  - [Pretrained Model or LLM or Foundation Model](#pretrained-model-or-llm-or-foundation-model)
+  - [GAN or Diffusion Model](#gan-or-diffusion-model)
+  - [Multimodal Learning](#multimodal-learning)
+  - [Data Simulation](#data-simulation)
+  - [Interpretability](#interpretability)
+  - [Spatialtemporal Transcriptomic](#spatialtemporal-transcriptomic)
+  - [RNA Velocity](#rna-velocity)
+  - [Molecular Representation Learning](#molecular-representation-learning)
+  - [Single Cell Perturbation or Drug Response](#single-cell-perturbation-or-drug-response)
+  - [Cellular Dynamics](#cellular-dynamics)
+  - [Single Cell Application](#single-cell-application)
+  - [Tools For Single Cell or Spatial Data](#tools-for-single-cell-or-spatial-data)
+  - [Single Cell Atlas](#single-cell-atlas)
+  - [Single Cell Visualization](#single-cell-visualization)
+  - [Benchmarking](#benchmarking)
+  - [Metric Design](#metric-design)
+  - [Subcellular Analysis](#subcellular-analysis)
+  - [Dimensionality Reduction and Visualization](#dimensionality-reduction-and-visualization)
+  - [Representation Learning](#representation-learning)
+  - [Batch Effect Correction](#batch-effect-correction)
+  - [Tumor Microenvironment-TME](#tumor-microenvironment-tme)
+  - [Cell-Cell Communication Events](#cell-cell-communication-events)
+  - [Gene Regulatory Network](#gene-regulatory-network)
+  - [Imputation](#imputation)
+  - [Spatial Domain](#spatial-domain)
+  - [Reference Embedding or Transfer Learning](#reference-embedding-or-transfer-learning)
+  - [Cell Segmentation](#cell-segmentation)
+  - [Cell Type Deconvolution](#cell-type-deconvolution)
+  - [Cell Type Annotation](#cell-type-annotation)
+  - [Cell Clustering](#cell-clustering)
+  - [Disease Prediction](#disease-prediction)
+  - [Multimodal Integration](#multimodal-integration)
+  - [Multiomics Translation](#multiomics-translation)
 
 ## Book
 1. [[Single Cell Best Practices]](https://www.sc-best-practices.org/preamble.html), Fabian Theis's Lab
@@ -91,6 +97,9 @@ Be free to refer to our comprehensive survey paper on Deep Learning in Single-ce
 
 ## Pretrained Model or LLM or Foundation Model
 **Refer more details to** [[foundation-model-single-cell-papers]](https://github.com/OmicsML/foundation-model-single-cell-papers)
+2. [2025 Biorxiv] **scPRINT-2: Towards the next-generation of cell foundation models and benchmarks
+** [[paper]](https://www.biorxiv.org/content/10.64898/2025.12.11.693702v2)
+2. [2025 Nature Communications] **scPRINT: pre-training on 50 million cells allows robust gene network predictions** [[paper]](https://www.nature.com/articles/s41467-025-58699-1)
 1. [2024 ICLR] **BioBridge: Bridging Biomedical Foundation Models via Knowledge Graphs** [[paper]](https://openreview.net/forum?id=jJCeMiwHdH)
 1. [2023 bioRxiv] **CellPLM: Pre-training of Cell Language Model Beyond Single Cells** [[paper]](https://www.biorxiv.org/content/10.1101/2023.10.03.560734v1)
 1. [2023 bioRxiv] **DNABERT-2: EFFICIENT FOUNDATION MODEL AND BENCHMARK FOR MULTI-SPECIES GENOME** [[paper]](https://arxiv.org/pdf/2306.15006.pdf)
@@ -260,6 +269,9 @@ Be free to refer to our comprehensive survey paper on Deep Learning in Single-ce
 1. [[Loopy Browser]](https://loopybrowser.com/)
 
 ## Benchmarking
+2. [2025 Biorxiv] **scPRINT-2: Towards the next-generation of cell foundation models and benchmarks
+** [[paper]](https://www.biorxiv.org/content/10.64898/2025.12.11.693702v2)
+2. [2025 Nature Communications] **scPRINT: pre-training on 50 million cells allows robust gene network predictions** [[paper]](https://www.nature.com/articles/s41467-025-58699-1)
 1. [2023 biorxiv] **Benchmarking the translational potential of spatial gene expression prediction from histology** [[paper]](https://www.biorxiv.org/content/10.1101/2023.12.12.571251v1)
 1. [2023 bioRxiv] **Systematic benchmarking of imaging spatial transcriptomics platforms in FFPE tissues** [[paper]](https://www.biorxiv.org/content/10.1101/2023.12.07.570603v1)
 1. [2023 bioRxiv] **Benchmarking multi-omics integration algorithms across single-cell RNA and ATAC data** [[paper]](https://www.biorxiv.org/content/10.1101/2023.11.15.564963v1)
@@ -269,21 +281,21 @@ Be free to refer to our comprehensive survey paper on Deep Learning in Single-ce
 1. [2023 bioRxiv] **Universal preprocessing of single-cell genomics data** [[paper]](https://www.biorxiv.org/content/10.1101/2023.09.14.543267v1.full.pdf)
 1. [2023 Genome Biology] **Meta-analysis of (single-cell method) benchmarks reveals the need for extensibility and interoperability** [[paper]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02962-5)
 1. [2023 Nature Communications] **A comprehensive benchmarking with practical guidelines for cellular deconvolution of spatial transcriptomics** [[paper]](https://www.nature.com/articles/s41467-023-37168-7)
-1. [2023 bioRxiv] **Benchmarking the Autoencoder Design for Imputing Single-Cell RNA Sequencing Data** [[paper]](https://www.biorxiv.org/content/10.1101/2023.02.16.528866v1.abstract)
-1. [2023 bioRxiv] **Benchmarking Algorithms for Gene Set Scoring of Single-cell ATAC-seq Data** [[paper]](https://www.biorxiv.org/content/10.1101/2023.01.14.524081v1)
-1. [2022 Nature Communications] **Comparison of methods and resources for cell-cell communication inference from single-cell RNA-Seq data** [[paper]](https://www.nature.com/articles/s41467-022-30755-0)
-1. [2022 Nature Methods] **Benchmarking atlas-level data integration in single-cell genomics** [[paper]](https://www.nature.com/articles/s41592-021-01336-8.pdf)
-1. [2022 Nature Methods] **Benchmarking spatial and single-cell transcriptomics integration methods for transcript distribution prediction and cell type deconvolution** [[paper]](https://www.nature.com/articles/s41592-022-01480-9)
-1. [2022 BioRxiv] **Benchmarking Automated Cell Type Annotation Tools for Single-cell ATAC-seq Data** [[paper]](https://www.biorxiv.org/content/10.1101/2022.10.05.511014v1)
-1. [2022 Briefings in Bioinformatics] **Benchmarking methods for detecting differential states between conditions from multi-subject single-cell RNA-seq data** [[paper]](https://academic.oup.com/bib/article/23/5/bbac286/6649780)
-1. [2022 Nucleic Acids Research] **scIMC: a platform for benchmarking comparison and visualization analysis of scRNA-seq data imputation methods** [[paper]](https://academic.oup.com/nar/article/50/9/4877/6582166)
-1. [2021 Frontiers in Genetics] **Evaluating the Reproducibility of Single-Cell Gene Regulatory Network Inference Algorithms** [[paper]](https://www.frontiersin.org/articles/10.3389/fgene.2021.617282/full)
-1. [2021 Nature Communications] **A benchmark study of simulation methods for single-cell RNA sequencing data** [[paper]](https://www.nature.com/articles/s41467-021-27130-w)
-1. [2021 Genome Biology] **Benchmarking UMI-based single-cell RNA-seq preprocessing workflows** [[paper]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02552-3)
-1. [2020 Nature Methods] **Benchmarking algorithms for gene regulatory network inference from single-cell transcriptomic data** [[paper]](https://www.nature.com/articles/s41592-019-0690-6)
-1. [2020 Genome Biology] **A benchmark of batch-effect correction methods for single-cell RNA sequencing data** [[paper]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1850-9)
-1. [2020 Nature Biotechnology] **A multicenter study benchmarking single-cell RNA sequencing technologies using reference samples** [[paper]](https://www.nature.com/articles/s41587-020-00748-9)
-1. [2019 Nature Methods] **Benchmarking single cell RNA-sequencing analysis pipelines using mixture control experiments** [[paper]](https://www.nature.com/articles/s41592-019-0425-8)
+2. [2023 bioRxiv] **Benchmarking the Autoencoder Design for Imputing Single-Cell RNA Sequencing Data** [[paper]](https://www.biorxiv.org/content/10.1101/2023.02.16.528866v1.abstract)
+3. [2023 bioRxiv] **Benchmarking Algorithms for Gene Set Scoring of Single-cell ATAC-seq Data** [[paper]](https://www.biorxiv.org/content/10.1101/2023.01.14.524081v1)
+4. [2022 Nature Communications] **Comparison of methods and resources for cell-cell communication inference from single-cell RNA-Seq data** [[paper]](https://www.nature.com/articles/s41467-022-30755-0)
+5. [2022 Nature Methods] **Benchmarking atlas-level data integration in single-cell genomics** [[paper]](https://www.nature.com/articles/s41592-021-01336-8.pdf)
+6. [2022 Nature Methods] **Benchmarking spatial and single-cell transcriptomics integration methods for transcript distribution prediction and cell type deconvolution** [[paper]](https://www.nature.com/articles/s41592-022-01480-9)
+7. [2022 BioRxiv] **Benchmarking Automated Cell Type Annotation Tools for Single-cell ATAC-seq Data** [[paper]](https://www.biorxiv.org/content/10.1101/2022.10.05.511014v1)
+8. [2022 Briefings in Bioinformatics] **Benchmarking methods for detecting differential states between conditions from multi-subject single-cell RNA-seq data** [[paper]](https://academic.oup.com/bib/article/23/5/bbac286/6649780)
+9. [2022 Nucleic Acids Research] **scIMC: a platform for benchmarking comparison and visualization analysis of scRNA-seq data imputation methods** [[paper]](https://academic.oup.com/nar/article/50/9/4877/6582166)
+10. [2021 Frontiers in Genetics] **Evaluating the Reproducibility of Single-Cell Gene Regulatory Network Inference Algorithms** [[paper]](https://www.frontiersin.org/articles/10.3389/fgene.2021.617282/full)
+11. [2021 Nature Communications] **A benchmark study of simulation methods for single-cell RNA sequencing data** [[paper]](https://www.nature.com/articles/s41467-021-27130-w)
+12. [2021 Genome Biology] **Benchmarking UMI-based single-cell RNA-seq preprocessing workflows** [[paper]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02552-3)
+13. [2020 Nature Methods] **Benchmarking algorithms for gene regulatory network inference from single-cell transcriptomic data** [[paper]](https://www.nature.com/articles/s41592-019-0690-6)
+14. [2020 Genome Biology] **A benchmark of batch-effect correction methods for single-cell RNA sequencing data** [[paper]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1850-9)
+15. [2020 Nature Biotechnology] **A multicenter study benchmarking single-cell RNA sequencing technologies using reference samples** [[paper]](https://www.nature.com/articles/s41587-020-00748-9)
+16. [2019 Nature Methods] **Benchmarking single cell RNA-sequencing analysis pipelines using mixture control experiments** [[paper]](https://www.nature.com/articles/s41592-019-0425-8)
 
 ## Metric Design
 1. [2019 Narure Methods] **A test metric for assessing single-cell RNA-seq batch correction** [[paper]](https://www.nature.com/articles/s41592-018-0254-1)
@@ -309,6 +321,9 @@ Be free to refer to our comprehensive survey paper on Deep Learning in Single-ce
 
 
 ## Representation Learning
+2. [2025 Biorxiv] **scPRINT-2: Towards the next-generation of cell foundation models and benchmarks
+** [[paper]](https://www.biorxiv.org/content/10.64898/2025.12.11.693702v2)
+2. [2025 Nature Communications] **scPRINT: pre-training on 50 million cells allows robust gene network predictions** [[paper]](https://www.nature.com/articles/s41467-025-58699-1)
 1. [2023 Nature Machine Intelligence] **Reusability report: Learning the transcriptional grammar in single-cell RNA-sequencing data using transformers** [[paper]](https://www.nature.com/articles/s42256-023-00757-8)
 1. [2023 Genome Biology] **Correcting gradient-based interpretations of deep neural networks for genomics** [[paper]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02956-3)
 1. [2023 Nature Methods] **SIMBA: single-cell embedding along with features** [[paper]](https://www.nature.com/articles/s41592-023-01899-8)
@@ -320,6 +335,9 @@ Be free to refer to our comprehensive survey paper on Deep Learning in Single-ce
 
 
 ## Batch Effect Correction
+2. [2025 Biorxiv] **scPRINT-2: Towards the next-generation of cell foundation models and benchmarks
+** [[paper]](https://www.biorxiv.org/content/10.64898/2025.12.11.693702v2)
+2. [2025 Nature Communications] **scPRINT: pre-training on 50 million cells allows robust gene network predictions** [[paper]](https://www.nature.com/articles/s41467-025-58699-1)
 1. [2023 Bioinformatics] **CLAIRE: contrastive learning-based batch correction framework for better balance between batch mixing and preservation of cellular heterogeneity** [[paper]](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btad099/7055295)
 1. [2020 Genomy Biology] **A benchmark of batch-effect correction methods for single-cell RNA sequencing data** [[paper]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1850-9)
 1. [2020 Nature Biotechnology] **A multicenter study benchmarking single-cell RNA sequencing technologies using reference samples** [[paper]](https://www.nature.com/articles/s41587-020-00748-9)
@@ -354,6 +372,9 @@ learning on spatial transcriptomics** [[paper]](https://www.biorxiv.org/content/
 
 
 ## Gene Regulatory Network
+2. [2025 Biorxiv] **scPRINT-2: Towards the next-generation of cell foundation models and benchmarks
+** [[paper]](https://www.biorxiv.org/content/10.64898/2025.12.11.693702v2)
+2. [2025 Nature Communications] **scPRINT: pre-training on 50 million cells allows robust gene network predictions** [[paper]](https://www.nature.com/articles/s41467-025-58699-1)
 1. [2023 arxiv] **DynGFN: Towards Bayesian Inference of Gene Regulatory Networks with GFlowNets** [[paper]](https://arxiv.org/pdf/2302.04178.pdf)
 1. [2023 Bioinformatics] **STGRNS: an interpretable transformer-based method for inferring gene regulatory networks from single-cell transcriptomic data** [[paper]](https://academic.oup.com/bioinformatics/article/39/4/btad165/7099621)
 1. [2022 Nature Machine Intelligence] **Inferring transcription factor regulatory networks from single-cell ATAC-seq data based on graph neural networks** [[paper]](https://www.nature.com/articles/s42256-022-00469-5)
@@ -367,6 +388,9 @@ learning on spatial transcriptomics** [[paper]](https://www.biorxiv.org/content/
 
 
 ## Imputation
+2. [2025 Biorxiv] **scPRINT-2: Towards the next-generation of cell foundation models and benchmarks
+** [[paper]](https://www.biorxiv.org/content/10.64898/2025.12.11.693702v2)
+2. [2025 Nature Communications] **scPRINT: pre-training on 50 million cells allows robust gene network predictions** [[paper]](https://www.nature.com/articles/s41467-025-58699-1)
 1. [2018 Nature Communications] **An accurate and robust imputation method scImpute for single-cell RNA-seq data** [[paper]](https://www.nature.com/articles/s41467-018-03405-7)
 1. [2019 Genome Biology] **DeepImpute: an accurate, fast, and scalable deep neural network method to impute single-cell RNA-seq data** [[paper]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1837-6)
 1. [2018 Cell] **Recovering Gene Interactions from Single-Cell Data Using Data Diffusion** [[paper]](https://www.cell.com/cell/fulltext/S0092-8674(18)30724-4)
@@ -398,6 +422,9 @@ and visualization of spatial expression data** [[Tool]](https://genomebiology.bi
 
 
 ## Reference Embedding or Transfer Learning
+2. [2025 Biorxiv] **scPRINT-2: Towards the next-generation of cell foundation models and benchmarks
+** [[paper]](https://www.biorxiv.org/content/10.64898/2025.12.11.693702v2)
+2. [2025 Nature Communications] **scPRINT: pre-training on 50 million cells allows robust gene network predictions** [[paper]](https://www.nature.com/articles/s41467-025-58699-1)
 1. [2019 Nature Methods] **Data denoising with transfer learning in single-cell transcriptomics** [[paper]](https://www.nature.com/articles/s41592-019-0537-1)
 1. [2018 Nature Methods] **Deep generative modeling for single-cell transcriptomics** [[paper]](https://www.nature.com/articles/s41592-018-0229-2)
 1. [2020 Bioinformatics] **Conditional out-of-distribution generation for unpaired data using transfer VAE** [[paper]](https://academic.oup.com/bioinformatics/article/36/Supplement_2/i610/6055927?guestAccessKey=71253caa-1779-40e8-8597-c217db539fb5&login=false)
@@ -441,6 +468,9 @@ contrastive fine-tuning** [[paper]](https://www.biorxiv.org/content/10.1101/2021
 1. [2019 Science] **Slide-seq: A scalable technology for measuring genome-wide expression at high spatial resolution** [[paper]](https://doi.org/10.1126/science.aaw1219)
 
 ## Cell Type Annotation 
+2. [2025 Biorxiv] **scPRINT-2: Towards the next-generation of cell foundation models and benchmarks
+** [[paper]](https://www.biorxiv.org/content/10.64898/2025.12.11.693702v2)
+2. [2025 Nature Communications] **scPRINT: pre-training on 50 million cells allows robust gene network predictions** [[paper]](https://www.nature.com/articles/s41467-025-58699-1)
 1. [2023 biorxiv] **Scaling cross-tissue single-cell annotation models** [[paper]](https://www.biorxiv.org/content/10.1101/2023.10.07.561331v1.full.pdf) 
 1. [2023 Nature Methods] **Multi-layered maps of neuropil with segmentation-guided contrastive learning** [[paper]](https://www.nature.com/articles/s41592-023-02059-8) 
 1. [2023 Nature Methods] **Cue: a deep-learning framework for structural variant discovery and genotyping** [[paper]](https://pubmed.ncbi.nlm.nih.gov/36959322/) 
@@ -487,6 +517,9 @@ NOTE: annotated reference cell graph + query cell graph
 --->
 
 ## Disease Prediction
+2. [2025 Biorxiv] **scPRINT-2: Towards the next-generation of cell foundation models and benchmarks
+** [[paper]](https://www.biorxiv.org/content/10.64898/2025.12.11.693702v2)
+2. [2025 Nature Communications] **scPRINT: pre-training on 50 million cells allows robust gene network predictions** [[paper]](https://www.nature.com/articles/s41467-025-58699-1)
 1. [2024 Nature Biotechnology] **Can single-cell biology realize the promise of precision medicine?** [[paper]](https://www.nature.com/articles/s41587-024-02138-x)
 1. [2018 IJCAI] **Hybrid Approach of Relation Network and Localized Graph Convolutional Filtering for Breast Cancer Subtype Classification** [[paper]](https://www.ijcai.org/Proceedings/2018/490)
 1. [2021 NPJ Digital Medicine] **DeePaN - A deep patient graph convolutional network integratingclinico-genomic evidence to stratify lung cancers benefiting from immunotherapy** [[paper]](https://www.nature.com/articles/s41746-021-00381-z)
