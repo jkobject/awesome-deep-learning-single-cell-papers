@@ -26,55 +26,49 @@ Be free to refer to our comprehensive survey paper on Deep Learning in Single-ce
 
 ## For the foundation model for single-cell, more papers are recorded [[HERE]](https://github.com/OmicsML/awesome-foundation-model-single-cell-papers).
 
-- [awesome-deep-learning-single-cell-papers](#awesome-deep-learning-single-cell-papers)
-  - [Citation](#citation)
-  - [For the foundation model for single-cell, more papers are recorded \[HERE\].](#for-the-foundation-model-for-single-cell-more-papers-are-recorded-here)
-  - [Book](#book)
-  - [Single Cell Techonoly](#single-cell-techonoly)
-    - [Single-Modality](#single-modality)
-    - [Multimodality](#multimodality)
-    - [Spatial Transcriptomic](#spatial-transcriptomic)
-  - [Course](#course)
-  - [Survey](#survey)
-  - [Pretrained Model or LLM or Foundation Model](#pretrained-model-or-llm-or-foundation-model)
-  - [GAN or Diffusion Model](#gan-or-diffusion-model)
-  - [Multimodal Learning](#multimodal-learning)
-  - [Data Simulation](#data-simulation)
-  - [Interpretability](#interpretability)
-  - [Spatialtemporal Transcriptomic](#spatialtemporal-transcriptomic)
-  - [RNA Velocity](#rna-velocity)
-  - [Molecular Representation Learning](#molecular-representation-learning)
-  - [Single Cell Perturbation or Drug Response](#single-cell-perturbation-or-drug-response)
-  - [Cellular Dynamics](#cellular-dynamics)
-  - [Single Cell Application](#single-cell-application)
-  - [Tools For Single Cell or Spatial Data](#tools-for-single-cell-or-spatial-data)
-  - [Single Cell Atlas](#single-cell-atlas)
-  - [Single Cell Visualization](#single-cell-visualization)
-  - [Benchmarking](#benchmarking)
-  - [Metric Design](#metric-design)
-  - [Subcellular Analysis](#subcellular-analysis)
-  - [Dimensionality Reduction and Visualization](#dimensionality-reduction-and-visualization)
-  - [Representation Learning](#representation-learning)
-  - [Batch Effect Correction](#batch-effect-correction)
-  - [Tumor Microenvironment-TME](#tumor-microenvironment-tme)
-  - [Cell-Cell Communication Events](#cell-cell-communication-events)
-  - [Gene Regulatory Network](#gene-regulatory-network)
-  - [Imputation](#imputation)
-  - [Spatial Domain](#spatial-domain)
-  - [Reference Embedding or Transfer Learning](#reference-embedding-or-transfer-learning)
-  - [Cell Segmentation](#cell-segmentation)
-  - [Cell Type Deconvolution](#cell-type-deconvolution)
-  - [Cell Type Annotation](#cell-type-annotation)
-  - [Cell Clustering](#cell-clustering)
-  - [Disease Prediction](#disease-prediction)
-  - [Multimodal Integration](#multimodal-integration)
-  - [Multiomics Translation](#multiomics-translation)
+- [Book](#book)
+- [Single Cell Technology](#single-cell-techonoly)
+- [Course](#course)
+- [Survey](#survey)
+- [Pretrained Model or LLM or Foundation Model](#pretrained-model-or-llm-or-foundation-model)
+- [GAN or Diffusion Model](#gan-or-diffusion-model)
+- [Multimodal Learning](#multimodal-learning)
+- [Single Cell Data Simulation](#single-cell-data-simulation)
+- [Interpretability](#interpretability)
+- [Spatialtemporal Transcriptomic](#spatialtemporal-transcriptomic)
+- [RNA Velocity](#rna-velocity)
+- [Molecular Representation Learning](#molecular-representation-learning)
+- [Single Cell Perturbation or Drug Response](#single-cell-perturbation-or-drug-response)
+- [Cellular Dynamics](#cellular-dynamics)
+- [Single Cell Application](#single-cell-application)
+- [Tools For Single Cell or Spatial Data](#tools-for-single-cell-or-spatial-data)
+- [Single Cell Atlas](#single-cell-atlas)
+- [Single Cell Visualization](#single-cell-visualization)
+- [Benchmarking](#benchmarking)
+- [Metric Design](#metric-design)
+- [Subcellular Analysis](#subcellular-analysis)
+- [Dimensionality Reduction and Visualization](#dimensionality-reduction-and-visualization)
+- [Representation Learning](#representation-learning)
+- [Batch Effect Correction](#batch-effect-correction)
+- [Tumor Microenvironment-TME](#tumor-microenvironment-tme)
+- [Cell-Cell Communication Events](#cell-cell-communication-events)
+- [Gene Regulatory Network](#gene-regulatory-network)
+- [Imputation](#imputation)
+- [Spatial Domain](#spatial-domain)
+- [Reference Embedding or Transfer Learning](#reference-embedding-or-transfer-learning)
+- [Cell Segmentation](#cell-segmentation)
+- [Cell Type Deconvolution](#cell-type-deconvolution)
+- [Cell Type Annotation](#cell-type-annotation)
+- [Cell Clustering](#cell-clustering)
+- [Disease Prediction](#disease-prediction)
+- [Multimodal Integration](#multimodal-integration)
+- [Multiomics Translation](#multiomics-translation)
 
 ## Book
 1. [[Single Cell Best Practices]](https://www.sc-best-practices.org/preamble.html), Fabian Theis's Lab
 1. [[Basics of Single-Cell Analysis with Bioconductor]](http://bioconductor.org/books/3.15/OSCA.basic/index.html), Bioconductor software based on R
 
-## Single Cell Techonoly
+## Single Cell Technology
 ### Single-Modality
 
 ### Multimodality
@@ -163,8 +157,14 @@ Be free to refer to our comprehensive survey paper on Deep Learning in Single-ce
 1. [2023 biorxiv Image+Gene Expression] **Spatially Resolved Gene Expression Prediction from H&E Histology Images via Bi-modal Contrastive Learning** [[paper]](https://arxiv.org/pdf/2306.01859.pdf)
 1. [2023 biorxiv Image+Gene Expression] **Single-cell gene expression prediction using H&E images based on spatial transcriptomics** [[paper]](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12471/1247105/Single-cell-gene-expression-prediction-using-HE-images-based-on/10.1117/12.2654294.full?SSO=1)
 
-## Data Simulation
+## Single Cell Data Simulation
+1. [2025 NM] **scMultiSim: simulation of single-cell multi-omics and spatial data guided by gene regulatory networks and cell–cell interactions** [[paper]](https://www.nature.com/articles/s41592-025-02651-0)
+1. [2023 NBT] **scDesign3 generates realistic in silico data for multimodal single-cell and spatial omics** [[paper]](https://www.nature.com/articles/s41587-023-01772-1)
+1. [2023 NC] **scReadSim: a single-cell RNA-seq and ATAC-seq read simulator** [[paper]](https://www.nature.com/articles/s41467-023-43162-w)
 1. [2023 biorxiv] **GRouNdGAN: GRN-guided simulation of single-cell RNA-seq data using causal generative adversarial networks** [[paper]](https://www.biorxiv.org/content/10.1101/2023.07.25.550225v1)
+1. [2022 JCB] **Simulating Single-Cell Gene Expression Count Data with Preserved Gene Correlations by scDesign2** [[paper]](https://www.liebertpub.com/doi/abs/10.1089/cmb.2021.0440)
+1. [2021 GB] **scDesign2: a transparent simulator that generates high-fidelity single-cell gene expression count data with gene correlations captured** [[paper]](https://link.springer.com/article/10.1186/s13059-021-02367-2)
+1. [2019 Bioinformatics] **A statistical simulator scDesign for rational scRNA-seq experimental design** [[paper]](https://academic.oup.com/bioinformatics/article/35/14/i41/5529133)
 
 
 
@@ -205,6 +205,8 @@ Be free to refer to our comprehensive survey paper on Deep Learning in Single-ce
 1. [2023 ICLR] **Uni-Mol: A Universal 3D Molecular Representation Learning Framework** [[paper]](https://openreview.net/forum?id=6K2RM6wVqKu)
 
 ## Single Cell Perturbation or Drug Response
+1. [2024 NeurIPS AIDrugX (Spotlight)] **Signals in the Cells: Multimodal and Contextualized Machine Learning Foundations for Therapeutics** [[paper]](https://openreview.net/forum?id=kL8dlYp6IM) [[poster]](https://drive.google.com/file/d/1plypydZCaegbgxyCl-xehFxSgwX6e8So/view)
+2. [2024 biorxiv] **Deep learning-based predictions of gene perturbation effects do not yet outperform simple linear methods** [[paper]](https://www.biorxiv.org/content/biorxiv/early/2024/09/21/2024.09.16.613342.full.pdf)
 1. [2024 ICLR] **Biologically Interpretable VAE with Supervision for Transcriptomics Data Under Ordinal Perturbations** [[paper]](https://www.nature.com/articles/s41592-023-02144-y)
 1. [2024 Nature Methods] **scPerturb: harmonized single-cell perturbation data** [[paper]](https://www.nature.com/articles/s41592-023-02144-y)
 1. [2023 biorxiv] **Unagi: Deep Generative Model for Deciphering Cellular Dynamics and In-Silico Drug Discovery in Complex Diseases** [[paper]](https://assets.researchsquare.com/files/rs-3676579/v1_covered_2dc4a452-a1f2-47a2-acb1-f816276a9e07.pdf?c=1702865288)
@@ -269,10 +271,8 @@ Be free to refer to our comprehensive survey paper on Deep Learning in Single-ce
 1. [[Loopy Browser]](https://loopybrowser.com/)
 
 ## Benchmarking
-2. [2025 Biorxiv] **scPRINT-2: Towards the next-generation of cell foundation models and benchmarks
-** [[paper]](https://www.biorxiv.org/content/10.64898/2025.12.11.693702v2)
-2. [2025 Nature Communications] **scPRINT: pre-training on 50 million cells allows robust gene network predictions** [[paper]](https://www.nature.com/articles/s41467-025-58699-1)
-1. [2023 biorxiv] **Benchmarking the translational potential of spatial gene expression prediction from histology** [[paper]](https://www.biorxiv.org/content/10.1101/2023.12.12.571251v1)
+1. [2024 MoML@Mila] **** [[CMT submission]](https://cmt3.research.microsoft.com/MoML2024/Submission/Summary/13) [[preprint]](https://www.biorxiv.org/content/10.1101/2024.06.12.598655v2) [[poster]](https://drive.google.com/file/d/1LYdITeFY5iX07zyXPGVEjMpYjuHMrneS/view) [[conference]](https://portal.ml4dd.com/moml-2024)
+2. [2023 biorxiv] **Benchmarking the translational potential of spatial gene expression prediction from histology** [[paper]](https://www.biorxiv.org/content/10.1101/2023.12.12.571251v1)
 1. [2023 bioRxiv] **Systematic benchmarking of imaging spatial transcriptomics platforms in FFPE tissues** [[paper]](https://www.biorxiv.org/content/10.1101/2023.12.07.570603v1)
 1. [2023 bioRxiv] **Benchmarking multi-omics integration algorithms across single-cell RNA and ATAC data** [[paper]](https://www.biorxiv.org/content/10.1101/2023.11.15.564963v1)
 1. [2023 bioRxiv] **BEND: Benchmarking DNA Language Models on biologically meaningful tasks** [[paper]](https://arxiv.org/abs/2311.12570)
@@ -324,6 +324,7 @@ Be free to refer to our comprehensive survey paper on Deep Learning in Single-ce
 2. [2025 Biorxiv] **scPRINT-2: Towards the next-generation of cell foundation models and benchmarks
 ** [[paper]](https://www.biorxiv.org/content/10.64898/2025.12.11.693702v2)
 2. [2025 Nature Communications] **scPRINT: pre-training on 50 million cells allows robust gene network predictions** [[paper]](https://www.nature.com/articles/s41467-025-58699-1)
+1. [2025 arxiv] **SUICA: Learning Super-high Dimensional Sparse Implicit Neural Representations for Spatial Transcriptomics** [[paper]](https://arxiv.org/abs/2412.01124)
 1. [2023 Nature Machine Intelligence] **Reusability report: Learning the transcriptional grammar in single-cell RNA-sequencing data using transformers** [[paper]](https://www.nature.com/articles/s42256-023-00757-8)
 1. [2023 Genome Biology] **Correcting gradient-based interpretations of deep neural networks for genomics** [[paper]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02956-3)
 1. [2023 Nature Methods] **SIMBA: single-cell embedding along with features** [[paper]](https://www.nature.com/articles/s41592-023-01899-8)
@@ -356,6 +357,7 @@ Be free to refer to our comprehensive survey paper on Deep Learning in Single-ce
 
 
 ## Cell-Cell Communication Events
+1. [2024 Nature Methods] **Unsupervised and supervised discovery of tissue cellular neighborhoods from cell phenotypes** [[paper]](https://www.nature.com/articles/s41592-023-02124-2)
 1. [2024 Nature Reviews Genetics] **The diversification of methods for studying cell–cell interactions and communication** [[paper]](https://www.nature.com/articles/s41576-023-00685-8)
 1. [2024 bioRxiv] **Large-scale characterization of cell niches in spatial atlases using bio-inspired graph learning** [[paper]](https://www.biorxiv.org/content/10.1101/2024.02.21.581428v2.full.pdf)
 1. [2024 Pac Symp Biocomput] **PEPSI: Polarity measurements from spatial proteomics imaging suggest immune cell engagement** [[paper]](https://pubmed.ncbi.nlm.nih.gov/38160302/)
@@ -471,6 +473,7 @@ contrastive fine-tuning** [[paper]](https://www.biorxiv.org/content/10.1101/2021
 2. [2025 Biorxiv] **scPRINT-2: Towards the next-generation of cell foundation models and benchmarks
 ** [[paper]](https://www.biorxiv.org/content/10.64898/2025.12.11.693702v2)
 2. [2025 Nature Communications] **scPRINT: pre-training on 50 million cells allows robust gene network predictions** [[paper]](https://www.nature.com/articles/s41467-025-58699-1)
+1. [2025 BioRxiv] **Large Language Model Consensus Substantially Improves the Cell Type Annotation Accuracy for scRNA-seq Data** [[paper]](https://www.biorxiv.org/content/10.1101/2025.04.10.647852v1) [[code]](https://github.com/cafferychen777/mLLMCelltype)
 1. [2023 biorxiv] **Scaling cross-tissue single-cell annotation models** [[paper]](https://www.biorxiv.org/content/10.1101/2023.10.07.561331v1.full.pdf) 
 1. [2023 Nature Methods] **Multi-layered maps of neuropil with segmentation-guided contrastive learning** [[paper]](https://www.nature.com/articles/s41592-023-02059-8) 
 1. [2023 Nature Methods] **Cue: a deep-learning framework for structural variant discovery and genotyping** [[paper]](https://pubmed.ncbi.nlm.nih.gov/36959322/) 
@@ -527,6 +530,7 @@ NOTE: annotated reference cell graph + query cell graph
 1. [2022 CHIL '20: Proceedings of the ACM Conference on Health, Inference, and Learning] **Disease state prediction from single-cell data using graph attention networks** [[paper]](https://dl.acm.org/doi/10.1145/3368555.3384449)
 
 ## Multimodal Integration
+1. [2024 Nature Methods] **Search and match across spatial omics samples at single-cell resolution** [[Paper]](https://www.nature.com/articles/s41592-024-02410-7)
 1. [2023 Nature Biotechnology] **Integration of spatial and single-cell data across modalities with weakly linked features** [[Paper]](https://www.nature.com/articles/s41587-023-01935-0)
 1. [2023 Nature Communications] **scDREAMER for atlas-level integration of single-cell datasets using deep generative model paired with adversarial classifier** [[Paper]](https://www.nature.com/articles/s41467-023-43590-8)
 1. [2023 biorxiv] **Automated single-cell omics end-to-end framework with data-driven batch inference** [[Paper]](https://www.biorxiv.org/content/10.1101/2023.11.01.564815v1)
@@ -559,9 +563,11 @@ NOTE: annotated reference cell graph + query cell graph
 
 ## Multiomics Translation
 1. [2024 Nature Communications] **scButterfly: a versatile single-cell cross-modality translation method via dual-aligned variational autoencoders** [[paper]](https://www.nature.com/articles/s41467-024-47418-x)
+1. [2023 arxiv scHyena] **scHyena: Foundation Model for Full-Length Single-Cell RNA-Seq Analysis in Brain** [[paper]](https://arxiv.org/abs/2310.02713)
 1. [2023 bioRxiv scTranslator] **A pre-trained large language model for translating single-cell transcriptome to proteome** [[paper]](https://www.biorxiv.org/content/10.1101/2023.07.04.547619v1)
 1. [2023 Advanced Science] **Efficient Generation of Paired Single-Cell Multiomics Profiles by Deep Learning** [[paper]](https://onlinelibrary.wiley.com/doi/full/10.1002/advs.202301169)
 1. [2022 JCB] **Multimodal Single-Cell Translation and Alignment with Semi-Supervised Learning** [[paper]](https://www.liebertpub.com/doi/full/10.1089/cmb.2022.0264)
+1. [2022 Nature Machine Intelligence sciPENN] **A multi-use deep learning method for CITE-seq and single-cell RNA-seq data integration with cell surface protein prediction and imputation** [[paper]](https://www.nature.com/articles/s42256-022-00545-w)
 1. [2022 RECOMB] **Semi-supervised Single-Cell Cross-modality Translation Using Polarbear** [[paper]](https://dl.acm.org/doi/abs/10.1007/978-3-031-04749-7_2)
 1. [2020 PNAS] **BABEL enables cross-modality translation between multiomic profiles at single-cell resolution** [[paper]](https://www.pnas.org/doi/abs/10.1073/pnas.2023070118)
 
